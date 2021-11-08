@@ -14,7 +14,7 @@ const promptUser = () => {
         {
             type: 'input',
             name: 'description',
-            message: "Provide a description explaining your project."
+            message: "Please provide a brief description explaining your project."
         },
         {
             type: 'input',
@@ -58,7 +58,7 @@ const promptUser = () => {
         {
             type: "input",
             name: "git",
-            message: "Please provide your GitHub Profile username."
+            message: "Please provide your GitHub profile username."
         },
     ])
 };

@@ -86,7 +86,7 @@ ${data.contributions}
 ${data.test}
     
 ## Questions 
-If you have any questions please contact me either (https://github.com/${data.git}) or via email at ${data.email} 
+Questions can be directed to my Github (https://github.com/${data.git}) or feel free to email me at ${data.email} 
 
 ## License 
 This application is covered under ${renderLicenseLink(data.license)} 
