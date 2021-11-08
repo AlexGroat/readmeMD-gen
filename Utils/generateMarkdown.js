@@ -11,6 +11,15 @@ function renderLicenseBadge(license) {
 
     } else if (license === "MIT License") {
         return `![license: MIT](https://img.shields.io/badge/license-MIT-blue)`
+
+    } else if (license === "Mozilla Public License 2.0") {
+        return `![license: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)`;
+
+    } else if (license === "Boost Software License 1.0") {
+        return `![license: Boost Software License 1.0](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)`;
+
+    } else if (license === "ISC License (ISC)") {
+        return `![license: ISC](https://img.shields.io/badge/License-ISC-blue.svg)`;
     }
 
 }
@@ -30,6 +39,16 @@ function renderLicenseLink(license) {
 
     } else if (license === "MIT License") {
         return `[MIT License](https://opensource.org/licenses/MIT)`;
+
+    } else if (license === "Mozilla Public License 2.0") {
+        return `[Mozilla Public License 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)`;
+
+    } else if (license === "Boost Software License 1.0") {
+        return `[Boost Software License 1.0](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)`;
+
+    } else if (license === "ISC License (ISC)") {
+        return `[ISC License (ISC)](https://img.shields.io/badge/License-ISC-blue.svg)`;
+
     }
 }
 renderLicenseLink()

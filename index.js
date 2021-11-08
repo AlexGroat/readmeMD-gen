@@ -44,6 +44,9 @@ const promptUser = () => {
                 "Apache License 2.0",
                 "GNU General Public License v3.0",
                 "MIT License",
+                "Mozilla Public License 2.0",
+                "Boost Software License 1.0",
+                "ISC License (ISC)",
                 "None Required"
             ]
         },
@@ -64,7 +67,7 @@ const init = () => {
     promptUser()
         // .then((data) => fs.writeFile('README.md', generateMarkdown(data))) --does not work
         .then((answers) => fs.writeFileSync('README.md', generateMarkdown(answers)))
-        .then(() => console.log("Nice job, you successfully wrote the README.md"))
+        .then(() => console.log("Your Readme MD was created!"))
         .catch((err) => console.error(err))
 };
 
